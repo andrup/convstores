@@ -1,5 +1,10 @@
 import streamlit as st
 import pandas as pd
+import sys
+import path
+
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent)
 
 
 dataset_path ='../transactions.csv'
