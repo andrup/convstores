@@ -7,7 +7,7 @@ dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent)
 
 
-dataset_path ='../transactions.csv'
+dataset_path = dir.parent.parent + '/transactions.csv'
 df = pd.read_csv(dataset_path)
 st.title('Sales per Operation')
 
