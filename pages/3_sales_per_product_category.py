@@ -11,7 +11,7 @@ st.write(dir.parent.parent)
 
 # try abosulute path  st.title(abspath)
 
-dataset_path = dir.parent.parent.'/transactions.csv'
+dataset_path = dir.parent.parent + '/transactions.csv'
 df = pd.read_csv(dataset_path)
 st.title('Sales per PRODUCT_CATEGORY')
 
