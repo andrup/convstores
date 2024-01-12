@@ -38,4 +38,4 @@ st.write('remove: ', bad_items_list)
 
 new_items_list = check_if_item_in_market(mid, rec_items_list)
 print(f'added {new_items_list}')
-st.write('added: ', new_items_list)
+st.write('add: ', new_items_list)
