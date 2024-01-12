@@ -4,7 +4,7 @@ import sys
 import path
 
 dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent)
+sys.path.append(dir.parent)
 
 
 dataset_path ='../transactions.csv'
